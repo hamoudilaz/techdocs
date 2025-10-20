@@ -1,5 +1,8 @@
-site_name: <your-component-name>
+site_name: Backstage Overview
 nav:
-  - Home: index.md
+  - Overview: index.md
+  - Getting Started: getting-started.md
+  - TechDocs: techdocs.md
+  - Plugins: plugins.md
 plugins:
   - techdocs-core
