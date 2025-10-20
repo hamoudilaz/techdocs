@@ -9,3 +9,24 @@ spec:
   type: documentation
   lifecycle: experimental
   owner: Team-Hamoudi
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: a-unique-name-for-your-docs
+  description: a simple doc
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: Team-Hamoudi
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Team-Daniel
+spec:
+  type: team
+  children: []
+
