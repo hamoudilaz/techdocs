@@ -11,3 +11,4 @@ spec:
   type: documentation
   lifecycle: experimental
   owner: Team-Hamoudi
+  system: examples
