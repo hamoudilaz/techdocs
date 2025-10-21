@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: a-unique-name-for-your-docs
+  name: Techdocs showcase test
   description: a simple doc
+  tags:
+    - new
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
